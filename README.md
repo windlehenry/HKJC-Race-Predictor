@@ -8,10 +8,10 @@ I scraped historical race data directly from the Hong Kong Jockey Club (HKJC) we
 
 ## Notebooks
 
-- `Predictive_Analytics_HKJC_Scraping.ipynb`  
+- `HKJC_Scraping.ipynb`  
   Handles data collection by scraping the HKJC website using `requests`, `BeautifulSoup`, and `pandas`. Where scraping failed (due to structural issues or missing pages), I manually entered race data to complete the dataset.
 
-- `Predictive_Analytics_HKJC_Main.ipynb`  
+- `HKJC_Main.ipynb`  
   Covers the end-to-end workflow:
   - Cleaning and preparing the data (handling missing values, removing unusable columns)
   - Feature engineering (standardizing formats, extracting date components, one-hot encoding, aggregating historical performance)
