@@ -106,6 +106,18 @@ All data was scraped from:
 
 ---
 
+## About This Project
+
+This project was completed as part of my university studies and represents my first attempt at applying machine learning to a real-world dataset end-to-end. While I’ve tried to follow best practices in data preprocessing, EDA, and model evaluation, I’m also aware that there are areas where things could be structured or implemented more rigorously.
+
+For example, some preprocessing steps (like outlier handling and column removal) were applied before train-test splitting, which may introduce data leakage. Similarly, the modeling approach could benefit from more robust validation techniques and better interpretability tools.
+
+That said, this project was a huge learning experience for me — from data scraping and cleaning to feature engineering and model evaluation. I chose a topic that was personally meaningful and technically challenging, and I learned a lot about the realities of working with noisy, imperfect data.
+
+As I continue to learn and grow in the field of data science, I look forward to revisiting and improving this project with a more refined pipeline and cleaner architecture. Feedback and suggestions are always welcome!
+
+---
+
 ## Final Thoughts
 
 This project was equal parts technical challenge and personal interest — using data science to analyze something I’ve grown up around in Hong Kong. While high test accuracy may always be out of reach in this domain, the process of building, cleaning, and exploring gave me a much deeper understanding of the modeling pipeline and how to deal with noisy, real-world data.
